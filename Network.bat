@@ -22,18 +22,18 @@ IF "%ID%" == "3" (
 goto END
 
 :C1
-netsh interface set interface name="乙太網路" admin=ENABLED
+netsh interface set interface name="Ethernet" admin=ENABLED
 netsh interface set interface name="Wi-Fi" admin=DISABLED
 goto END    
     
     
 :C2
-netsh interface set interface name="乙太網路" admin=DISABLED
+netsh interface set interface name="Ethernet" admin=DISABLED
 netsh interface set interface name="Wi-Fi" admin=ENABLED
 goto END
 
 :C3
-netsh interface set interface name="乙太網路" admin=DISABLED
+netsh interface set interface name="Ethernet" admin=DISABLED
 netsh interface set interface name="Wi-Fi" admin=DISABLED
 goto END
 
